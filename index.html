@@ -20,6 +20,19 @@
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Megrim|Rosario" rel="stylesheet">
     <script defer src="js/index.js"></script>
+    <script>
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://www.afrohacks.org",
+        "logo": "https://lh6.googleusercontent.com/U-lmr0jYFXPQeXT73TQ-ns7BYXAhJYmjeCU2B5bQStNRLcHyCBXlqWCarAyPiE_EVmEgBcEvWslTc3qf8hig=w2298-h1318-rw",
+        "sameAs": [
+          "http://www.facebook.com/afrohackshu",
+          "http://instagram.com/afrohackshu",
+          "http://twitter.com/afrohackshu"
+        ]
+      }
+    </script>
   </head>
   <body>
     <section class="hero is-black is-fullheight has-text-centered">
@@ -35,7 +48,7 @@
             A DC Area Hackathon
           </h2>
           <br/>
-          <a id="register-anchor" href="https://afrohacks-registration.herokuapp.com/">
+          <a id="register-anchor" itemprop="url" href="https://afrohacks-registration.herokuapp.com/">
             <button id="register-btn" type="button" class="button is-large">
               Register
             </button>
@@ -63,7 +76,7 @@
           <br/>
           <h2 class="title">HOW:</h2>
           <label class="subtitle">
-            By registering <a href="https://afrohacks-registration.herokuapp.com/">here</a>! ;)
+            By registering <a itemprop="url" href="https://afrohacks-registration.herokuapp.com/">here</a>! ;)
           </label>
         </div>
         <div class="column is-half">
@@ -166,7 +179,7 @@
   </body>
   <footer class="footer has-text-centered">
     <h2 class="subtitle">&copy; Copyright Howard University ACM Student Chapter</h2>
-    <a href="https://twitter.com/afrohackshu"><span class="fa fa-twitter fa-2x"></span></a>&nbsp;
-    <a href="https://www.instagram.com/afrohackshu/"><span class="fa fa-instagram fa-2x"></span></a>
+    <a href="https://twitter.com/afrohackshu" itemprop="sameAs"><span class="fa fa-twitter fa-2x"></span></a>&nbsp;
+    <a href="https://www.instagram.com/afrohackshu/" itemprop="sameAs" ><span class="fa fa-instagram fa-2x"></span></a>
   </footer>
 </html>
